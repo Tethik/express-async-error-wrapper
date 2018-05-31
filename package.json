@@ -1,6 +1,6 @@
 {
   "name": "express-async-error-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A stupid wrapper for express routes to catch and call `next()` on any errors thrown.",
   "main": "index.js",
   "repository": "git@github.com:Tethik/express-async-error-wrapper.git",
