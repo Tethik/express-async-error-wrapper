@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from "express";
+import { RequestHandler } from "express";
 
-declare function errorWrap(req: Request, res: Response, next: NextFunction) 
+declare function errorWrap(fn: RequestHandler): RequestHandler
 export default errorWrap;
